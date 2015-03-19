@@ -42,6 +42,12 @@
     <Compile Include="FixedWidthFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DFL\DFL.csproj">
+      <Project>{f98c640c-985e-4e3f-8782-761dd0807767}</Project>
+      <Name>DFL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
